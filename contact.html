@@ -43,12 +43,12 @@
 
 <body>
 
-   <!-- ======= Header ======= -->
+  <!-- ======= Header ======= -->
   <header id="header" class="header d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
-        <img src="/assets/img/logo.png" alt="Orison Engineering Logo" style="max-height: auto;">
+        <img src="/assets/img/logo.png" alt="Orison Engineering Services Logo" style="max-height: 10vh !important;">
       </a>
 
 
@@ -69,7 +69,7 @@
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/breadcrumbs-bg.jpg');">
+    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/3.avif');">
       <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
 
         <h2>Contact</h2>
@@ -98,7 +98,7 @@
             <div class="info-item d-flex flex-column justify-content-center align-items-center">
               <i class="bi bi-envelope"></i>
               <h3>Email Us</h3>
-              <p>Sales.orisonengg@gmail.com</p>
+              <p>sales.orisonengineering@outlook.com</p>
             </div>
           </div><!-- End Info Item -->
 
@@ -121,35 +121,45 @@
           </div><!-- End Google Maps -->
 
           <div class="col-lg-6">
-            <form action="https://formspree.io/f/xgvypjgk" method="post" role="form" class="php-email-form" id="contactForm">
-              <!-- Hidden field to specify recipient email -->
-              <input type="hidden" name="_to" value="meharamir985@gmail.com">
+            <form action="https://formspree.io/f/xdkdeyyb" method="post" role="form" class="php-email-form"
+              id="contactForm">
               <!-- Honeypot field for spam protection -->
               <input type="text" name="_gotcha" style="display:none" />
-              <!-- Custom redirect after form submission (optional) -->
+
+              <!-- Redirect after form submission -->
               <input type="hidden" name="_next" value="thank-you.html">
-              
+
               <div class="row gy-4">
                 <div class="col-lg-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Full name" required>
                 </div>
                 <div class="col-lg-6 form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Email address" required>
                 </div>
               </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+
+              <div class="row gy-4">
+                <div class="col-lg-6 form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                </div>
+                <div class="col-lg-6 form-group">
+                  <input type="tel" name="phone" class="form-control" id="phone" placeholder="Phone number" required>
+                </div>
               </div>
+
               <div class="form-group">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
+
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
+
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
+
           </div><!-- End Contact Form -->
 
         </div>
@@ -169,15 +179,14 @@
           <div class="col-lg-6 col-md-6">
             <div class="footer-info">
               <h3>
-                <span style="color: white;">Orison</span>
-                <span style="color: var(--color-primary);">-Engineering</span>
+                <span style="color: white; font-size:26px;">Orison Engineering</span>
+                <span style="color: var(--color-primary); font-size: 16px;"> Services</span>
               </h3>
 
               <p>
-                Industrial Area, Sector 12 <br>
-                Noida, UP 201301, India<br><br>
-                <strong>Phone:</strong> +91 98765 43210<br>
-                <strong>Email:</strong> info@orisonengineering.com<br>
+                <strong>Location:</strong> Lahore, Faislabad, Karachi<br>
+                <strong>Phone:</strong> 0333-4952060<br>
+                <strong>Email:</strong> sales.orisonengineering@outlook.com<br>
               </p>
               <div class="social-links d-flex mt-3">
                 <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
@@ -211,13 +220,23 @@
 
           <div class="col-lg-3 col-md-3 footer-links">
             <h4>Popular Brands</h4>
-            <ul>
-              <li><a href="#">Siemens</a></li>
-              <li><a href="#">Allen Bradley</a></li>
-              <li><a href="#">Schneider Electric</a></li>
-              <li><a href="#">Omron</a></li>
-              <li><a href="#">ABB</a></li>
-            </ul>
+            <div style="display: flex; gap: 40px;">
+              <ul>
+
+                <li><a href="#">Mitsubishi</a></li>
+                <li><a href="#">ABB</a></li>
+                <li><a href="#">Sick</a></li>
+                <li><a href="#">Omron</a></li>
+
+              </ul>
+              <ul>
+                <li><a href="#">Siemens</a></li>
+                <li><a href="#">Allen Bradley</a></li>
+                <li><a href="#">Schneider Electric</a></li>
+                <li><a href="#">Seimens</a></li>
+
+              </ul>
+            </div>
           </div>
 
           <!-- <div class="col-lg-2 col-md-3 footer-links">
@@ -238,11 +257,11 @@
     <div class="footer-legal text-center position-relative">
       <div class="container">
         <div class="copyright">
-          &copy; Copyright <strong><span>OrisonEngineering</span></strong>. All Rights Reserved
+          &copy; Copyright <strong><span>OrisonEngineering Services</span></strong>. All Rights Reserved
         </div>
-        <div class="credits">
+        <!-- <div class="credits">
           Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
+        </div> -->
       </div>
     </div>
 
@@ -254,11 +273,13 @@
 
   <!-- WhatsApp Button -->
   <div class="whatsapp-container">
-    <a href="https://wa.me/+923018659791" target="_blank" class="whatsapp-btn d-flex align-items-center justify-content-center">
+    <a href="https://wa.me/923334952060" target="_blank"
+      class="whatsapp-btn d-flex align-items-center justify-content-center">
       <i class="bi bi-whatsapp"></i>
     </a>
     <div class="whatsapp-ripple"></div>
   </div>
+
 
   <style>
     /* Scroll Top Button - Left Side */
@@ -323,9 +344,12 @@
     }
 
     @keyframes subtle-pulse {
-      0%, 100% {
+
+      0%,
+      100% {
         box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
       }
+
       50% {
         box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
       }
@@ -337,9 +361,11 @@
         opacity: 0.6;
         border-width: 2px;
       }
+
       50% {
         opacity: 0.3;
       }
+
       100% {
         transform: translate(-50%, -50%) scale(1.8);
         opacity: 0;
@@ -353,16 +379,17 @@
         bottom: 10px;
         left: 10px;
       }
-       .logo img{
+
+      .logo img {
         height: 60px !important;
       }
 
-      
+
       .whatsapp-container {
         bottom: 10px;
         right: 10px;
       }
-      
+
       .whatsapp-btn {
         width: 55px;
         height: 55px;
@@ -388,23 +415,23 @@
 
   <!-- Custom Formspree JavaScript -->
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
       const form = document.getElementById('contactForm');
       const loading = document.querySelector('.loading');
       const errorMessage = document.querySelector('.error-message');
       const sentMessage = document.querySelector('.sent-message');
 
-      form.addEventListener('submit', function(e) {
+      form.addEventListener('submit', function (e) {
         e.preventDefault();
-        
+
         // Show loading state
         loading.style.display = 'block';
         errorMessage.style.display = 'none';
         sentMessage.style.display = 'none';
-        
+
         // Get form data
         const formData = new FormData(form);
-        
+
         // Submit to Formspree
         fetch(form.action, {
           method: 'POST',
@@ -413,28 +440,28 @@
             'Accept': 'application/json'
           }
         })
-        .then(response => {
-          loading.style.display = 'none';
-          
-          if (response.ok) {
-            sentMessage.style.display = 'block';
-            form.reset();
-          } else {
-            return response.json().then(data => {
-              if (Object.hasOwnProperty.call(data, 'errors')) {
-                errorMessage.innerHTML = data.errors.map(error => error.message).join(', ');
-              } else {
-                errorMessage.innerHTML = 'Oops! There was a problem submitting your form';
-              }
-              errorMessage.style.display = 'block';
-            });
-          }
-        })
-        .catch(error => {
-          loading.style.display = 'none';
-          errorMessage.innerHTML = 'Oops! There was a problem submitting your form';
-          errorMessage.style.display = 'block';
-        });
+          .then(response => {
+            loading.style.display = 'none';
+
+            if (response.ok) {
+              sentMessage.style.display = 'block';
+              form.reset();
+            } else {
+              return response.json().then(data => {
+                if (Object.hasOwnProperty.call(data, 'errors')) {
+                  errorMessage.innerHTML = data.errors.map(error => error.message).join(', ');
+                } else {
+                  errorMessage.innerHTML = 'Oops! There was a problem submitting your form';
+                }
+                errorMessage.style.display = 'block';
+              });
+            }
+          })
+          .catch(error => {
+            loading.style.display = 'none';
+            errorMessage.innerHTML = 'Oops! There was a problem submitting your form';
+            errorMessage.style.display = 'block';
+          });
       });
     });
   </script>

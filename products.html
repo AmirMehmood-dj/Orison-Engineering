@@ -94,9 +94,12 @@
     }
 
     @keyframes subtle-pulse {
-      0%, 100% {
+
+      0%,
+      100% {
         box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
       }
+
       50% {
         box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
       }
@@ -108,9 +111,11 @@
         opacity: 0.6;
         border-width: 2px;
       }
+
       50% {
         opacity: 0.3;
       }
+
       100% {
         transform: translate(-50%, -50%) scale(1.8);
         opacity: 0;
@@ -124,18 +129,19 @@
         bottom: 10px;
         left: 10px;
       }
-      
+
       .whatsapp-container {
         bottom: 10px;
         right: 10px;
       }
-      
+
       .whatsapp-btn {
         width: 55px;
         height: 55px;
         font-size: 24px;
       }
-       .logo img{
+
+      .logo img {
         height: 60px !important;
       }
 
@@ -157,12 +163,12 @@
 
 <body>
 
-   <!-- ======= Header ======= -->
+  <!-- ======= Header ======= -->
   <header id="header" class="header d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
-        <img src="/assets/img/logo.png" alt="Orison Engineering Logo" style="max-height: auto;">
+        <img src="/assets/img/logo.png" alt="Orison Engineering Services Logo" style="max-height: 10vh !important;">
       </a>
 
 
@@ -183,22 +189,23 @@
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/breadcrumbs-bg.jpg');">
+    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/5.webp');">
       <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
 
-        <h2>Projects</h2>
+        <h2>Products</h2>
         <ol>
           <li><a href="index.html">Home</a></li>
-          <li>Projects</li>
+          <li>Products</li>
         </ol>
 
       </div>
     </div><!-- End Breadcrumbs -->
 
     <!-- ======= Our Projects Section ======= -->
-    <section id="projects" class="projects">
+   <section id="projects" class="projects">
       <div class="container" data-aos="fade-up">
-         <div class="section-header">
+
+        <div class="section-header">
           <h2>Products & Services</h2>
           <p>Browse our extensive catalog of electrical automation products from leading manufacturers. All products
             come with manufacturer warranty and technical support.</p>
@@ -213,6 +220,8 @@
             <li data-filter=".filter-controls">VFD's</li>
             <li data-filter=".filter-power">Level</li>
             <li data-filter=".filter-motor">Electric Motors</li>
+            <li data-filter=".plc">PLC</li>
+
 
           </ul><!-- End Products Filters -->
 
@@ -220,12 +229,12 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-plc">
               <div class="portfolio-content h-100">
-                <img src="assets/img/switch1.jpg" class="img-fluid" alt="">
+                <!-- <img src="assets/img/switch1.jpg" class="img-fluid" alt=""> -->
                 <div class="portfolio-info">
                   <h4>Earthquake Sensors</h4>
                   <!-- <p>Compact programmable logic controller</p> -->
-                  <a href="assets/img/switch1.jpg" title="Earthquake Sensors" data-gallery="portfolio-gallery-plc"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <!-- <a href="assets/img/switch1.jpg" title="Earthquake Sensors" data-gallery="portfolio-gallery-plc" -->
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <!-- <a href="product-details.html" title="More Details" class="details-link"><i
                       class="bi bi-link-45deg"></i></a> -->
                 </div>
@@ -233,11 +242,11 @@
             </div><!-- End Products Item -->
             <div class="col-lg-4 col-md-6 portfolio-item filter-motor">
               <div class="portfolio-content h-100">
-                <img src="assets/img/switch1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/motors.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Earthquake Sensors</h4>
-                  <p>Compact programmable logic controller</p>
-                  <a href="assets/img/switch1.jpg" title="Earthquake Sensors" data-gallery="portfolio-gallery-plc"
+                  <h4>Electric Motor</h4>
+                  <!-- <p>Compact programmable logic controller</p> -->
+                  <a href="assets/img/motors.jpg" title="Electric Motor" data-gallery="portfolio-gallery-plc"
                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <!-- <a href="product-details.html" title="More Details" class="details-link"><i
                       class="bi bi-link-45deg"></i></a> -->
@@ -257,15 +266,28 @@
                  
                 </div>
               </div>
-            </div>End Products Item -->
+            </div> -->
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-controls">
               <div class="portfolio-content h-100">
-                <img src="assets/img/vfd1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/vfd33.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>VFD</h4>
                   <!-- <p>Industrial control relays and contactors</p> -->
-                  <a href="assets/img/vfd1.jpg" title="VFD" data-gallery="portfolio-gallery-controls"
+                  <a href="assets/img/vfd33.jpg" title="VFD" data-gallery="portfolio-gallery-controls"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <!-- <a href="product-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a> -->
+                </div>
+              </div>
+            </div><!-- End Products Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item plc">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/plc.webp" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>PLC</h4>
+                  <!-- <p>Industrial control relays and contactors</p> -->
+                  <a href="assets/img/vfd33.jpg" title="PLC" data-gallery="portfolio-gallery-controls"
                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <!-- <a href="product-details.html" title="More Details" class="details-link"><i
                       class="bi bi-link-45deg"></i></a> -->
@@ -307,7 +329,7 @@
                 <img src="assets/img/projects/construction-2.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Temperature Sensors</h4>
-                  <p>RTD and thermocouple sensors</p>
+                  <!-- <p>RTD and thermocouple sensors</p> -->
                   <a href="assets/img/projects/construction-2.jpg" title="Temperature Sensors"
                     data-gallery="portfolio-gallery-sensors" class="glightbox preview-link"><i
                       class="bi bi-zoom-in"></i></a>
@@ -316,14 +338,27 @@
                 </div>
               </div>
             </div><!-- End Products Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item plc">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/plc1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>PLC</h4>
+                  <!-- <p>Industrial control relays and contactors</p> -->
+                  <a href="assets/img/vfd33.jpg" title="PLC" data-gallery="portfolio-gallery-controls"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <!-- <a href="product-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a> -->
+                </div>
+              </div>
+            </div><!-- End Products Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-controls">
               <div class="portfolio-content h-100">
-                <img src="assets/img/vfd2.jpeg" class="img-fluid" alt="">
+                <img src="assets/img/vfd44.webp" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>VFD</h4>
                   <!-- <p>Direct online and soft starters</p> -->
-                  <a href="assets/img/vfd2.jpeg" title="VFD" data-gallery="portfolio-gallery-controls"
+                  <a href="assets/img/vfd44.webp" title="VFD" data-gallery="portfolio-gallery-controls"
                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <!-- <a href="product-details.html" title="More Details" class="details-link"><i
                       class="bi bi-link-45deg"></i></a> -->
@@ -345,13 +380,26 @@
             </div><!-- End Products Item -->
             <div class="col-lg-4 col-md-6 portfolio-item filter-controls">
               <div class="portfolio-content h-100">
-                <img src="assets/img/vfd3.jpg" class="img-fluid" alt="">
+                <img src="assets/img/vfd3.webp" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>VFD</h4>
                   <!-- <p>Direct online and soft starters</p> -->
-                  <a href="assets/img/vfd3.jpg" title="VFD" data-gallery="portfolio-gallery-controls"
+                  <a href="assets/img/vfd3.webp" title="VFD" data-gallery="portfolio-gallery-controls"
                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
 
+                </div>
+              </div>
+            </div><!-- End Products Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item plc">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/plc3.webp" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>PLC</h4>
+                  <!-- <p>Industrial control relays and contactors</p> -->
+                  <a href="assets/img/vfd33.jpg" title="PLC" data-gallery="portfolio-gallery-controls"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <!-- <a href="product-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a> -->
                 </div>
               </div>
             </div><!-- End Products Item -->
@@ -414,6 +462,7 @@
                 </div>
               </div>
             </div><!-- End Products Item -->
+           
             <div class="col-lg-4 col-md-6 portfolio-item filter-power">
               <div class="portfolio-content h-100">
                 <img src="assets/img/level4.jpg" class="img-fluid" alt="">
@@ -457,11 +506,11 @@
             </div><!-- End Products Item -->
             <div class="col-lg-4 col-md-6 portfolio-item filter-motor">
               <div class="portfolio-content h-100">
-                <img src="assets/img/switch1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/motors1.webp" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Earthquake Sensors</h4>
-                  <p>Compact programmable logic controller</p>
-                  <a href="assets/img/switch1.jpg" title="Earthquake Sensors" data-gallery="portfolio-gallery-plc"
+                  <h4>Electric Motor</h4>
+                  <!-- <p>Compact programmable logic controller</p> -->
+                  <a href="assets/img/motors1.webp" title="Electric Motor" data-gallery="portfolio-gallery-plc"
                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <!-- <a href="product-details.html" title="More Details" class="details-link"><i
                       class="bi bi-link-45deg"></i></a> -->
@@ -484,11 +533,11 @@
             </div><!-- End Products Item -->
             <div class="col-lg-4 col-md-6 portfolio-item filter-motor">
               <div class="portfolio-content h-100">
-                <img src="assets/img/switch1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/motors2.webp" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Earthquake Sensors</h4>
-                  <p>Compact programmable logic controller</p>
-                  <a href="assets/img/switch1.jpg" title="Earthquake Sensors" data-gallery="portfolio-gallery-plc"
+                  <h4>Electric Motor</h4>
+                  <!-- <p>Compact programmable logic controller</p> -->
+                  <a href="assets/img/motors2.webp" title="Electric Motor" data-gallery="portfolio-gallery-plc"
                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <!-- <a href="product-details.html" title="More Details" class="details-link"><i
                       class="bi bi-link-45deg"></i></a> -->
@@ -525,12 +574,12 @@
             </div><!-- End Products Item -->
             <div class="col-lg-4 col-md-6 portfolio-item filter-motor">
               <div class="portfolio-content h-100">
-                <img src="assets/img/switch1.jpg" class="img-fluid" alt="">
+                <!-- <img src="assets/img/switch1.jpg" class="img-fluid" alt=""> -->
                 <div class="portfolio-info">
-                  <h4>Earthquake Sensors</h4>
-                  <p>Compact programmable logic controller</p>
-                  <a href="assets/img/switch1.jpg" title="Earthquake Sensors" data-gallery="portfolio-gallery-plc"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <h4>Electric Motor</h4>
+                  <!-- <p>Compact programmable logic controller</p> -->
+                  <!-- <a href="assets/img/switch1.jpg" title="Earthquake Sensors" data-gallery="portfolio-gallery-plc" -->
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <!-- <a href="product-details.html" title="More Details" class="details-link"><i
                       class="bi bi-link-45deg"></i></a> -->
                 </div>
@@ -566,12 +615,12 @@
             </div><!-- End Products Item -->
             <div class="col-lg-4 col-md-6 portfolio-item filter-motor">
               <div class="portfolio-content h-100">
-                <img src="assets/img/switch1.jpg" class="img-fluid" alt="">
+                <!-- <img src="assets/img/switch1.jpg" class="img-fluid" alt=""> -->
                 <div class="portfolio-info">
-                  <h4>Earthquake Sensors</h4>
-                  <p>Compact programmable logic controller</p>
-                  <a href="assets/img/switch1.jpg" title="Earthquake Sensors" data-gallery="portfolio-gallery-plc"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <h4>Electric Motor</h4>
+                  <!-- <p>Compact programmable logic controller</p> -->
+                  <a href="assets/img/switch1.jpg" title="Electric Motor" data-gallery="portfolio-gallery-plc"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <!-- <a href="product-details.html" title="More Details" class="details-link"><i
                       class="bi bi-link-45deg"></i></a> -->
                 </div>
@@ -607,12 +656,12 @@
             </div><!-- End Products Item -->
             <div class="col-lg-4 col-md-6 portfolio-item filter-motor">
               <div class="portfolio-content h-100">
-                <img src="assets/img/switch1.jpg" class="img-fluid" alt="">
+                <!-- <img src="assets/img/switch1.jpg" class="img-fluid" alt=""> -->
                 <div class="portfolio-info">
-                  <h4>Earthquake Sensors</h4>
-                  <p>Compact programmable logic controller</p>
-                  <a href="assets/img/switch1.jpg" title="Earthquake Sensors" data-gallery="portfolio-gallery-plc"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <h4>Electric Motor</h4>
+                  <!-- <p>Compact programmable logic controller</p> -->
+                  <!-- <a href="assets/img/switch1.jpg" title="Earthquake Sensors" data-gallery="portfolio-gallery-plc" -->
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <!-- <a href="product-details.html" title="More Details" class="details-link"><i
                       class="bi bi-link-45deg"></i></a> -->
                 </div>
@@ -638,7 +687,7 @@
         </div>
 
       </div>
-    </section><!-- End Our Projects Section -->
+    </section><!-- End Our Products Section -->
 
   </main><!-- End #main -->
 
@@ -651,16 +700,15 @@
 
           <div class="col-lg-6 col-md-6">
             <div class="footer-info">
-              <h3>
-                <span style="color: white;">Orison</span>
-                <span style="color: var(--color-primary);">-Engineering</span>
+                <h3>
+                <span style="color: white; font-size:26px;">Orison Engineering</span>
+                <span style="color: var(--color-primary); font-size: 16px;"> Services</span>
               </h3>
 
               <p>
-                Industrial Area, Sector 12 <br>
-                Noida, UP 201301, India<br><br>
-                <strong>Phone:</strong> +91 98765 43210<br>
-                <strong>Email:</strong> info@orisonengineering.com<br>
+                <strong>Location:</strong> Lahore, Faislabad, Karachi<br>
+                <strong>Phone:</strong> 0333-4952060<br>
+                <strong>Email:</strong> sales.orisonengineering@outlook.com<br>
               </p>
               <div class="social-links d-flex mt-3">
                 <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
@@ -694,13 +742,23 @@
 
           <div class="col-lg-3 col-md-3 footer-links">
             <h4>Popular Brands</h4>
-            <ul>
-              <li><a href="#">Siemens</a></li>
-              <li><a href="#">Allen Bradley</a></li>
-              <li><a href="#">Schneider Electric</a></li>
-              <li><a href="#">Omron</a></li>
-              <li><a href="#">ABB</a></li>
-            </ul>
+            <div style="display: flex; gap: 40px;">
+              <ul>
+
+                <li><a href="#">Mitsubishi</a></li>
+                <li><a href="#">ABB</a></li>
+                <li><a href="#">Sick</a></li>
+                <li><a href="#">Omron</a></li>
+
+              </ul>
+              <ul>
+                <li><a href="#">Siemens</a></li>
+                <li><a href="#">Allen Bradley</a></li>
+                <li><a href="#">Schneider Electric</a></li>
+                <li><a href="#">Seimens</a></li>
+
+              </ul>
+            </div>
           </div>
 
           <!-- <div class="col-lg-2 col-md-3 footer-links">
@@ -721,11 +779,11 @@
     <div class="footer-legal text-center position-relative">
       <div class="container">
         <div class="copyright">
-          &copy; Copyright <strong><span>OrisonEngineering</span></strong>. All Rights Reserved
+          &copy; Copyright <strong><span>OrisonEngineering Services</span></strong>. All Rights Reserved
         </div>
-        <div class="credits">
+        <!-- <div class="credits">
           Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
+        </div> -->
       </div>
     </div>
 
@@ -736,12 +794,14 @@
       class="bi bi-arrow-up-short"></i></a>
 
   <!-- WhatsApp Button -->
-  <div class="whatsapp-container">
-    <a href="https://wa.me/+923018659791" target="_blank" class="whatsapp-btn d-flex align-items-center justify-content-center">
-      <i class="bi bi-whatsapp"></i>
-    </a>
-    <div class="whatsapp-ripple"></div>
-  </div>
+ <div class="whatsapp-container">
+  <a href="https://wa.me/923334952060" target="_blank"
+    class="whatsapp-btn d-flex align-items-center justify-content-center">
+    <i class="bi bi-whatsapp"></i>
+  </a>
+  <div class="whatsapp-ripple"></div>
+</div>
+
 
   <div id="preloader"></div>
 
